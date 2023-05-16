@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>CodePen - Daily UI #006 - Profile</title>
+        <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/templatemo-festava-live.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css'><link rel="stylesheet" href="../static/css/style.css">
+        <script src="../static/js/index.js"></script>
+
+    </head>
+    <body>
+        <!-- partial:index.partial.html -->
+        <!-- about -->
+            <div class="about"> <a class="bg_links social portfolio" href="https://www.rafaelalucas.com/dailyui" target="_blank">
+                <span class="icon"></span>
+            </a>
+            <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+                <span class="icon"></span>
+            </a>
+            <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+                <span class="icon"></span>
+            </a>
+            <a class="bg_links logo"></a>
+        </div>
+        <!-- end about -->
+
+        <div class="wrapper">
+         
+            <section class="module-team">
+                
+
+                <div class="team">
+                    <h2 class="title">Meet our Team</h2>
+                    
+                    <div
+                        class="team-cards">
+
+                        <!-- Slider main container -->
+                        <div
+                            class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper"></div>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="navigation">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <!-- comment -->
+                    <div class="comment-area">
+                        <h3 class="sub-title">Comments</h3>
+                        <div class="comment-box">
+                           <!-- 좌측(댓글 등록) -->
+                            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                                <div class="tab-pane fade active show" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
+                                    <form class="custom-form contact-form mb-5 mb-lg-0" method="post" role="form">
+                                        <div class="contact-form-body">
+                                            <div  class="row">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="text" name="contact-name" id="name" class="form-control" placeholder="name" required="">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="text" name="contact-company" type="password" id="pass" class="form-control" placeholder="password" required="">
+                                                </div>
+                                          
+                                                <textarea name="contact-message" rows="3" class="form-control" id="message" placeholder="Message"></textarea>
+                                            </div>                   
+
+
+                                            <div class="col-lg-6 col-md-10 col-8 mx-auto">
+                                                <button onclick="save_comment()" class="form-control">Send message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 우측(댓글 리스트) -->
+                            <div id="right"  class="d-flex row" style="max-width: 400px;">
+
+                                <div id="comment-list"  style="min-width: 300px; ">
+
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // comment -->
+
+                </div>
+            </div>
+
+        </section>
+      </body>
+</html></div><!-- partial --><script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js'></script><script src="../static/js/script.js"></script></body></html>
